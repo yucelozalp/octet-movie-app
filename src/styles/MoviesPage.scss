@@ -1,0 +1,119 @@
+.movies-page {
+  padding: 20px;
+
+  .movies-header {
+    .search-container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      .search-form {
+        max-width: 600px;
+        width: 100%;
+        margin: 0 auto;
+      }
+
+      .favorites-container {
+        .ant-badge {
+          margin-right: 20px;
+        }
+      }
+    }
+
+    .filters-container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 40px;
+
+      .title {
+        h1 {
+          margin: 0;
+        }
+      }
+
+      .filter-sort {
+        .filter-select {
+          margin-right: 10px;
+          width: 120px;
+        }
+
+        .sort-select {
+          width: 120px;
+        }
+      }
+    }
+  }
+
+  .movie-card {
+    border: none;
+  }
+
+  .card-image-container {
+    position: relative;
+
+    .favorite-button {
+      position: absolute;
+      top: 35px;
+      right: 40px;
+
+      .favorite-icon {
+        border: none;
+        background-color: white;
+        border-radius: 100%;
+        padding: 9px;
+      }
+    }
+
+    .tv-series-badge {
+      position: absolute;
+      top: 40px;
+      left: 40px;
+      background-color: #ffffff94;
+      border-radius: 20px;
+      padding: 5px 10px;
+      color: darkslategray;
+      font-size: 10px;
+      font-weight: bold;
+    }
+  }
+
+  .pagination {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+  }
+}
+
+@media (max-width: 768px) {
+
+  .movies-page {
+    .movies-header {
+      .search-container {
+        display: block;
+        .search-form{
+          margin-bottom: 20px;
+        }
+
+        .favorites-container{
+        }
+      }
+
+      .filters-container{
+        display: block;
+
+        .title{
+          margin-bottom: 20px;
+        }
+      }
+    }
+  }
+
+
+  .ant-row {
+    div {
+     width: 100% !important;
+     max-width: 100% !important;
+    }
+  }
+}

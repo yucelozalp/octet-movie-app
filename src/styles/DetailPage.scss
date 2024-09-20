@@ -1,0 +1,45 @@
+.movies-header {
+    margin-bottom: 50px;
+    .search-container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      .search-form {
+        max-width: 600px;
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+      }
+
+      .favorites-container {
+        .ant-badge {
+          margin-right: 20px;
+        }
+      }
+    }
+
+    .filters-container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 40px;
+
+      .title {
+        h1 {
+          margin: 0;
+        }
+      }
+
+      .filter-sort {
+        .filter-select {
+          margin-right: 10px;
+          width: 120px;
+        }
+
+        .sort-select {
+          width: 120px;
+        }
+      }
+    }
+  }

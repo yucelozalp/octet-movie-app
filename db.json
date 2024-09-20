@@ -1,0 +1,136 @@
+{
+  "movies": [
+    {
+      "id": "1",
+      "name": "Stranger Things",
+      "year": 2015,
+      "country": "USA",
+      "imdb": 8.6,
+      "category": "Action, Adventure, Horror",
+      "isTvSeries": true,
+      "summary": "When a young boy disappears, his mother, a police chief, and his friends must confront terrifying supernatural forces in order to get him back.",
+      "poster": "https://image.tmdb.org/t/p/w1280/49WJfeN0moxb9IPfGn8AIqMGskD.jpg"
+    },
+    {
+      "id": "2",
+      "name": "Batman Begins",
+      "year": 2005,
+      "country": "USA",
+      "imdb": 8.2,
+      "category": "Action, Adventure",
+      "isTvSeries": false,
+      "summary": "After training with his mentor, Batman begins his fight to free crime-ridden Gotham City from corruption.",
+      "poster": "https://image.tmdb.org/t/p/w1280/4MpN4kIEqUjW8OPtOQJXlTdHiJV.jpg"
+    },
+    {
+      "id": "3",
+      "name": "Spider-Man: Into the Spider-Verse",
+      "year": 2018,
+      "country": "USA",
+      "imdb": 8.4,
+      "category": "Animation, Action, Adventure",
+      "isTvSeries": false,
+      "summary": "Teen Miles Morales becomes Spider-Man of his reality, crossing paths with his counterparts from other dimensions to stop a threat to all realities.",
+      "poster": "https://image.tmdb.org/t/p/w1280/iiZZdoQBEYBv6id8su7ImL0oCbD.jpg"
+    },
+    {
+      "id": "4",
+      "name": "Dunkirk",
+      "year": 2017,
+      "country": "USA",
+      "imdb": 7.8,
+      "category": "Action, Drama, History",
+      "isTvSeries": false,
+      "summary": "Allied soldiers from Belgium, the British Empire and France are surrounded by the German Army, and evacuated during a fierce battle in World War II.",
+      "poster": "https://image.tmdb.org/t/p/w1280/b4Oe15CGLL61Ped0RAS9JpqdmCt.jpg"
+    },
+    {
+      "id": "5",
+      "name": "Dune",
+      "year": 2021,
+      "country": "USA",
+      "imdb": 8.4,
+      "category": "Action, Adventure, Drama",
+      "isTvSeries": false,
+      "summary": "Paul Atreides, a brilliant and gifted young man born into a great destiny beyond his understanding, must travel to the most dangerous planet in the universe to ensure the future of his family and his people.",
+      "poster": "https://image.tmdb.org/t/p/w1280/d5NXSklXo0qyIYkgV94XAgMIckC.jpg"
+    },
+    {
+      "id": "6",
+      "name": "No Time To Die",
+      "year": 2021,
+      "country": "USA",
+      "imdb": 7.6,
+      "category": "Action, Adventure, Thriller",
+      "isTvSeries": false,
+      "summary": "James Bond has left active service. His peace is short-lived when his old friend Felix Leiter from the CIA turns up asking for help, leading Bond onto the trail of a mysterious villain armed with dangerous new technology.",
+      "poster": "https://image.tmdb.org/t/p/w1280/iUgygt3fscRoKWCV1d0C7FbM9TP.jpg"
+    },
+    {
+      "id": "7",
+      "name": "Shang-Chi and the Legend of the Ten Rings",
+      "year": 2021,
+      "country": "USA",
+      "imdb": 7.9,
+      "category": "Action, Adventure, Fantasy",
+      "isTvSeries": false,
+      "summary": "Shang-Chi, the master of unarmed weaponry-based Kung Fu, is forced to confront his past after being drawn into the Ten Rings organization.",
+      "poster": "https://image.tmdb.org/t/p/w1280/9f2Q0U3IOsLgrI2HkvldwSABZy5.jpg"
+    },
+    {
+      "id": "8",
+      "name": "Don't Breathe 2",
+      "year": 2021,
+      "country": "USA",
+      "imdb": 6.1,
+      "category": "Action, Drama, Horror",
+      "isTvSeries": false,
+      "summary": "The Blind Man has been hiding out for years in his home, but his past sins catch up to him and his blind fortress becomes a battleground for his survival.",
+      "poster": "https://image.tmdb.org/t/p/w1280/hRMfgGFRAZIlvwVWy8DYJdLTpvN.jpg"
+    },
+    {
+      "id": "9",
+      "name": "The Dark Knight",
+      "year": 2008,
+      "country": "USA",
+      "imdb": 9.0,
+      "category": "Action, Drama, Adventure",
+      "isTvSeries": false,
+      "summary": "When the menace known as the Joker emerges from his mysterious past, he wreaks havoc and chaos on the people of Gotham, forcing Batman to abandon his rule of not killing.",
+      "poster": "https://image.tmdb.org/t/p/w1280/qJ2tW6WMUDux911r6m7haRef0WH.jpg"
+    },
+    {
+      "id": "10",
+      "name": "Rocky",
+      "year": 1976,
+      "country": "USA",
+      "imdb": 8.1,
+      "category": "Action, Adventure, Drama",
+      "isTvSeries": false,
+      "summary": "A small-time boxer gets a supremely rare chance to fight a heavyweight champion in a bout in which he strives to go the distance for his self-respect.",
+      "poster": "https://image.tmdb.org/t/p/w1280/cqxg1CihGR5ge0i1wYXr4Rdeppu.jpg"
+    },
+    {
+      "id": "11",
+      "name": "Fight Club",
+      "year": 1999,
+      "country": "USA",
+      "imdb": 8.8,
+      "category": "Action, Drama, Fantasy",
+      "isTvSeries": false,
+      "summary": "An insomniac office worker and a soap salesman build a global organization to help vent male aggression.",
+      "poster": "https://image.tmdb.org/t/p/w1280/pB8BM7pdSp6B6Ih7QZ4DrQ3PmJK.jpg"
+    },
+    {
+      "id": "12",
+      "name": "The Prestige",
+      "year": 2006,
+      "country": "USA, United Kingdom",
+      "imdb": 8.6,
+      "category": "Action, Drama, Fantasy",
+      "isTvSeries": false,
+      "summary": "In the end of the 19th century, two stage magicians engage in a competitive rivalry that turns into a bitter and dangerous feud.",
+      "poster": "https://image.tmdb.org/t/p/w1280/tRNlZbgNCNOpLpbPEz5L8G8A0JN.jpg"
+    }
+  ]
+}

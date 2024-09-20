@@ -1,0 +1,81 @@
+.layout {
+  min-height: 100vh;
+  background-color: white;
+}
+
+.header {
+  text-align: center;
+  padding: 1rem;
+  background-color: white;
+
+  h1 {
+    font-weight: bold;
+  }
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-container {
+  width: 100%;
+  max-width: 400px;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+
+  h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+
+  .ant-btn {
+    height: 40px;
+    font-size: 16px;
+  }
+}
+
+.footer {
+  text-align: center;
+  padding: 2rem 0;
+  background-color: white;
+  color: black;
+
+  .social-icons {
+    margin-bottom: 1rem;
+
+    a {
+      font-size: 24px;
+      color: black;
+
+      &:hover {
+        color: #1890ff;
+      }
+    }
+  }
+
+  .page-links {
+    margin-bottom: 1rem;
+
+    a {
+      margin: 0 1rem;
+      color: black;
+
+      &:hover {
+        color: #1890ff;
+      }
+    }
+  }
+
+  .copyright {
+    margin-top: 1rem;
+    color: black;
+  }
+}
+
+// Divider Styling (optional, can customize more if needed)
+.ant-divider {
+  margin: 1rem 0;
+}
