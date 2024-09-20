@@ -10,6 +10,7 @@ import DetailPage from './pages/DetailPage';
 import { decryptData } from './utils/crypto';
 import './App.css';
 import FavoritesPage from './pages/FavoritesPage';
+import NotFoundPage from './pages/NotFoundPage';
 
 const { Header, Content, Footer } = Layout;
 
@@ -38,11 +39,12 @@ const App: React.FC = () => {
         <Content style={{ padding: '0 50px' ,backgroundColor: 'white'  }}>
           <div className="site-layout-content">
             <Routes>
+              <Route path="/" element={!isAuthenticated ? <LoginPage /> : <Navigate to="/movies" />} />
               <Route path="/login" element={!isAuthenticated ? <LoginPage /> : <Navigate to="/movies" />} />
               <Route path="/movies" element={isAuthenticated ? <MoviesPage /> : <Navigate to="/login" />} />
               <Route path="/movies/:id" element={isAuthenticated ? <DetailPage /> : <Navigate to="/login" />} />
               <Route path="/favorites" element={<FavoritesPage />} />
-              <Route path="*" element={<Navigate to="/login" />} />
+              <Route path="*" element={<NotFoundPage />} />
             </Routes>
           </div>
         </Content>
